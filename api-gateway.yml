@@ -13,11 +13,11 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: micro01
-          uri: lb://micro01
+        - id: microservicio01
+          uri: lb://microservicio01
           predicates:
-            - Path=/micro01/**
-        - id: micro02
-          uri: lb://micro02
+            - Path=/afiliado/**
+        - id: microservicio02
+          uri: lb://microservicio02
           predicates:
-            - Path=/micro02/**
+            - Path=/afp/**
