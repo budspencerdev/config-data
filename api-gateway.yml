@@ -12,14 +12,12 @@ spring:
       discovery:
         locator:
           enabled: true
-        routes:
-          - id: micro01
-            uri: lb://micro01
-            predicates:
-              - Path=/micro01/**
-          - id: micro02
-            uri: lb://micro02
-            predicates:
-              - Path=/micro02/**
-    config:
-      enabled: false
+      routes:
+        - id: micro01
+          uri: lb://micro01
+          predicates:
+            - Path=/micro01/**
+        - id: micro02
+          uri: lb://micro02
+          predicates:
+            - Path=/micro02/**
