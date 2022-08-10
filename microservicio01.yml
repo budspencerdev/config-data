@@ -1,8 +1,5 @@
 server:
   port: 8085
-spring:
-  application:
-    name: microservicio01
 eureka:
   client:
     service-url:
