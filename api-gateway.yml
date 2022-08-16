@@ -20,4 +20,4 @@ spring:
         - id: micro02
           uri: http://localhost:8086/
           predicates:
-            - Path=/afp/**
+            - Path=/micro02/**
