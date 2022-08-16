@@ -18,6 +18,6 @@ spring:
           predicates:
             - Path=/afiliado/**
         - id: micro02
-          uri: lb://micro02
+          uri: http://micro02
           predicates:
             - Path=/afp/**
