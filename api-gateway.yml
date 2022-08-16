@@ -14,7 +14,7 @@ spring:
           enabled: true
       routes:
         - id: micro01
-          uri: lb://micro01
+          uri: http://micro01
           predicates:
             - Path=/afiliado/**
         - id: micro02
