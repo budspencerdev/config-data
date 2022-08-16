@@ -14,10 +14,10 @@ spring:
           enabled: true
       routes:
         - id: micro01
-          uri: http://micro01
+          uri: http://localhost:8085/
           predicates:
             - Path=/afiliado/**
         - id: micro02
-          uri: http://micro02
+          uri: http://localhost:8086/
           predicates:
             - Path=/afp/**
