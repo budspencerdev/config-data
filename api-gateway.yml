@@ -11,7 +11,7 @@ spring:
     gateway:
       discovery:
         locator:
-          enabled: true
+          enabled: true //indica que la puerta de enlace habilita la función de registro y descubrimiento de servicios
       routes:
         - id: micro01
           uri: lb://MICRO01
